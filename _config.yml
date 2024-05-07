@@ -2,7 +2,7 @@
 title: Kerner Lab # your site title
 author: Kerner Lab
 description: > # Meta description of Homepage
-  Website for Kerner Lab at Arizona State University.
+  Kerner Lab @ Arizona State University.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kerner-lab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -22,7 +22,9 @@ navigation: # Navigation links
   - { name: "Home", link: "/" }
   - { name: "About", link: "/about" }
   - { name: "People", link: "/people" }
-  - { name: "Publications", link: "/contact" }
+  - { name: "Research", link: "/research" }
+  - { name: "Publications", link: "/publication" }
+  - { name: "Contact", link: "/contact" }
 
 tagline: >
   Website for Kerner Lab at Arizona State University
