@@ -21,7 +21,8 @@ url: "https://kerner-lab.github.io" # the base hostname & protocol for your site
 navigation: # Navigation links
   - { name: "Home", link: "/" }
   - { name: "About", link: "/about" }
-  - { name: "Contact", link: "/contact" }
+  - { name: "People", link: "/people" }
+  - { name: "Publications", link: "/contact" }
 
 tagline: >
   Website for Kerner Lab at Arizona State University
