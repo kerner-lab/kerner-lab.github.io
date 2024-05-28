@@ -1,0 +1,76 @@
+---
+layout: base
+title: People
+---
+{% assign sorted_people_en = site.people | sort: 'role' %}
+<style>
+    .person-card-photo {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #333;
+        margin: 0 auto;
+        margin-bottom: 1em;
+        padding: 0.5em;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .person-card {
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        background-color: #ffffff;
+        /* Change the backrgb(255, 255, 255)color of the card */
+        color: #333;
+        /* Change the text color */
+    }
+
+    .person-card h3 {
+        font-size: 1.5em;
+        /* Increase the font size of the person's name */
+        margin-bottom: 0.5em;
+        /* Add some space below the name */
+    }
+
+    .person-card p {
+        margin-bottom: 0.5em;
+    }
+
+    .people-list {
+        display: grid;
+        grid-template-columns: repeat(4,
+                1fr);
+        /* Create a grid with 4 equal columns */
+        gap: 20px;
+        padding: 20px;
+    }
+</style>
+<section class="people">
+    <h1>{{ page.title }}</h1>
+    <div class="people-list">
+        {% for person in sorted_people_en %}
+        <div class="person-card">
+            {% if person.link %}
+            <a href="{{ person.link }}">
+                {% endif %}
+                <img src="{{ '/assets/img/' | append: person.photo }}" alt="{{ person.name }}"
+                    class="person-card-photo">
+                {% if person.link %}
+            </a>
+            {% endif %}
+            <h3>{{ person.name }}</h3>
+
+            {% if person.role == 'Student' %}
+            <p>{{ person.program }} <i>( {{ person.completion_date }} )</i></p>
+            {% elsif person.role == 'Professor' %}
+            <p><strong>{{ person.title }}</strong></p>
+            <p>
+                <i>{{ person.affiliation }}</i>
+            </p>
+            {% endif %}
+
+        </div>
+        {% endfor %}
+    </div>
+</section>

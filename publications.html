@@ -1,0 +1,25 @@
+---
+layout: base
+title: Publications
+---
+{% assign sorted_publications = site.publications | sort: 'year' %}
+{% assign grouped_publications = sorted_publications | group_by: 'year' %}
+
+<section class="reserach">
+    <h1>{{ page.title }}</h1>
+    <div>
+        {% for year in grouped_publications %}
+        <h2>{{ year.name }}</h2>
+        <hr>
+        <ul>
+            {% for publication in year.items %}
+            <li>{{ publication.citation | markdownify }}
+            </li>
+            {% endfor %}
+        </ul>
+
+        <!-- <h3>{{ publication.title }}</h3> -->
+
+        {% endfor %}
+    </div>
+</section>

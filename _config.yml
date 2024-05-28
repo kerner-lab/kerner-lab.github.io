@@ -23,11 +23,11 @@ navigation: # Navigation links
   - { name: "About", link: "/about" }
   - { name: "People", link: "/people" }
   - { name: "Research", link: "/research" }
-  - { name: "Publications", link: "/publication" }
+  - { name: "Publications", link: "/publications" }
   - { name: "Contact", link: "/contact" }
 
 tagline: >
-  Website for Kerner Lab at Arizona State University
+  Arizona State University
 
 hero_img: posts/lab_profile.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
@@ -72,3 +72,19 @@ compress_html:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+
+collections:
+  posts:
+    output: true
+  people:
+    output: true
+    permalink: /people/:path/
+  research:
+    output: true
+    permalink: /research/:path/
+  publications:
+    output: true
+    permalink: /publications/:path/
+sass:
+  sass_dir: _sass
+  style: compressed
