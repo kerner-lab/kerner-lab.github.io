@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quantifying the Impact of Conflict on Agricultural Land in Sudan"
+title: Quantifying the Impact of Conflict on Agricultural Land in Sudan
 summary: Quantify changes in cultivated land (2022 vs. 2023). 
 Link conflict events to agricultural declines. 
 Assess war impact on food security in Sudan.
