@@ -1,19 +1,18 @@
 ---
 layout: post
 title: Building a Good Foundation Model
-featured-img: building_foundation_model
+featured-img: building_foundation_model.png
 summary: Assessing how the spatial distribution (in terms of diversity, spatial distribution, and representivity) of pre-training data affects self-supervised geospatial foundation models.
 categories: Exploratory Science
 mathjax: true
 ---
 
 
-![Building a Good Foundation Model](../assets/img/posts/building_foundation_model.png?raw=true "Title")
-
-
 # Abstract
 
 **Background:**  Assessing how the spatial distribution (in terms of diversity, spatial distribution, and representivity) of pre-training data affects self-supervised geospatial foundation models.
+
+![Building a Good Foundation Model](../assets/img/posts/building_foundation_model.png?raw=true "Title")
 
 **Methods:** 
 

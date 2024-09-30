@@ -1,22 +1,19 @@
 ---
 layout: post
 title: "Using Relation Networks to Understand T/’s"
-featured-img: using-relation-network-to-understand
+featured-img: using-relation-network-to-understand.png
 summary: Can we find a different architecture that matches Transformers on key indicators?
 In what ways are they similar/different?
 mathjax: true
 ---
 
 
-
-![Using Relation Networks to Understand T/’s](../assets/img/posts/using-relation-network-to-understand.png?raw=true "Title")
-
-
-
 # Abstract
 
 **Background:**  Can we find a different architecture that matches Transformers on key indicators?
 In what ways are they similar/different?
+
+![Using Relation Networks to Understand T/’s](../assets/img/posts/using-relation-network-to-understand.png?raw=true "Title")
 
 **Methods:** 
 

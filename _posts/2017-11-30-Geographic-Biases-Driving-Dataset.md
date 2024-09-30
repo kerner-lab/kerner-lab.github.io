@@ -1,16 +1,18 @@
 ---
 layout: post
 title: "Geographic Biases in Driving Datasets"
-featured-img: geographic-biases
+featured-img: geographic-biases.png
 summary: Why do models trained on Europe perform poorly outside non-European continents?
 mathjax: true
 ---
 
-![Geographic Biases in Driving Datasets](../assets/img/posts/geographic-biases.png?raw=true "Title")
+
 
 # Abstract
 
 **Background:** Why do models trained on Europe perform poorly outside non-European continents?
+
+![Geographic Biases in Driving Datasets](../assets/img/posts/geographic-biases.png?raw=true "Title")
 
 **Methods:** 
 
