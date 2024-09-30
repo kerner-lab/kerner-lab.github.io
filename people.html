@@ -39,7 +39,7 @@ title: People
 
     .people-list {
         display: grid;
-        grid-template-columns: repeat(4,
+        grid-template-columns: repeat(2,
                 1fr);
         /* Create a grid with 4 equal columns */
         gap: 20px;
@@ -58,12 +58,12 @@ title: People
 
 /* Content-1:Start */
 .box {
-  width: 350px;
+  width: 250px;
   height: fit-content;
   border-radius: 20px;
   padding: 10px;
   text-align: center;
-  background: #ededed;
+  background: #fefbfb;
 }
 
 .box1 {
@@ -224,7 +224,7 @@ h5 {
 <section class="people">
     <h1>{{ page.title }}</h1>
 
-    <div class="people-list">
+    <!-- <div class="people-list">
         {% for person in sorted_people_en %}
         <div class="person-card">
             {% if person.link %}
@@ -247,10 +247,10 @@ h5 {
             {% endif %}
         </div>
         {% endfor %}
-    </div>
+    </div> -->
 
 
-    <div>
+    <div class="people-list">
         {% for person in sorted_people_en %}
         <div class="box1 box">
             <div class="content">
