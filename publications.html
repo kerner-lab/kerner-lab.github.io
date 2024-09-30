@@ -2,7 +2,7 @@
 layout: base
 title: Publications
 ---
-{% assign sorted_publications = site.publications | sort: 'year' %}
+{% assign sorted_publications = site.publications | sort: 'year' | reverse %}
 {% assign grouped_publications = sorted_publications | group_by: 'year' %}
 
 <section class="reserach">
