@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building a Good Foundation Model"
+title: Building a Good Foundation Model
 featured-img: building_foundation_model
 summary: Assessing how the spatial distribution (in terms of diversity, spatial distribution, and representivity) of pre-training data affects self-supervised geospatial foundation models.
 categories: Exploratory Science
@@ -8,17 +8,12 @@ mathjax: true
 ---
 
 
-* Members:
-Mirali Purohit, Gedeon Muhawenayo, Esther Rolf, Hannah Kerner
-
-
 ![Building a Good Foundation Model](../assets/img/posts/building_foundation_model.png?raw=true "Title")
 
 
 # Abstract
 
-**Background:** Text for this section. Research articles should include an abstract
-that does not exceed 350 words.
+**Background:**  Assessing how the spatial distribution (in terms of diversity, spatial distribution, and representivity) of pre-training data affects self-supervised geospatial foundation models.
 
 **Methods:** 
 
@@ -27,6 +22,10 @@ that does not exceed 350 words.
 
 
 **Results:** Text for this section.
+
+
+* Members:
+Mirali Purohit, Gedeon Muhawenayo, Esther Rolf, Hannah Kerner
 
 <!-- **Keywords:** sample; article; author -->
 

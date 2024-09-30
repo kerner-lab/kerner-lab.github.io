@@ -11,15 +11,13 @@ mathjax: true
 ---
 
 
-* Members:
-Gedeon Muhawenayo, Ivan Zvonkov, Ana M. Tárano, Catherine Nakalembe, Iman Smith, Christopher Atsianzale Wakhanala, Karyn Tabor, Amy McNally, Inbal Becker-Reshef, Hannah R. Kerner
-
-
-
 # Abstract
 
-**Background:** Text for this section. Research articles should include an abstract
-that does not exceed 350 words.
+**Background:**  Quantify changes in cultivated land (2022 vs. 2023). 
+Link conflict events to agricultural declines. 
+Assess war impact on food security in Sudan.
+Support FEWS NET in food security planning. 
+Develop reusable workflows for rapid cropland estimates.
 
 **Methods:** 
 
@@ -28,8 +26,11 @@ that does not exceed 350 words.
 - Buffer zone analysis with ACLED data to link conflict events with agricultural decline.
 
 
-
 **Results:** Text for this section.
+
+
+* Members:
+Gedeon Muhawenayo, Ivan Zvonkov, Ana M. Tárano, Catherine Nakalembe, Iman Smith, Christopher Atsianzale Wakhanala, Karyn Tabor, Amy McNally, Inbal Becker-Reshef, Hannah R. Kerner
 
 <!-- **Keywords:** sample; article; author -->
 

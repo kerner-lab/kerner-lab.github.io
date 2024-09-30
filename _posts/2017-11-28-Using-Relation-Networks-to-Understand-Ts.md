@@ -8,8 +8,6 @@ mathjax: true
 ---
 
 
-* Members:
-Mirali Purohit, Gedeon Muhawenayo, Esther Rolf, Hannah Kerner
 
 ![Using Relation Networks to Understand T/’s](../assets/img/posts/using-relation-network-to-understand.png?raw=true "Title")
 
@@ -17,8 +15,8 @@ Mirali Purohit, Gedeon Muhawenayo, Esther Rolf, Hannah Kerner
 
 # Abstract
 
-**Background:** Text for this section. Research articles should include an abstract
-that does not exceed 350 words.
+**Background:**  Can we find a different architecture that matches Transformers on key indicators?
+In what ways are they similar/different?
 
 **Methods:** 
 
@@ -29,6 +27,9 @@ that does not exceed 350 words.
 
 
 **Results:** Text for this section.
+
+* Members:
+Mirali Purohit, Gedeon Muhawenayo, Esther Rolf, Hannah Kerner
 
 <!-- **Keywords:** sample; article; author -->
 
@@ -65,17 +66,6 @@ References are added to the content in a similar way as LaTeX and there is a
 by including an *\@* followed by the BibTeX key in square brackets, for example like
 *[\@Upper_writers_1974]* for Ref. [@Upper_writers_1974].
 
-Now, the *Journal of Cheminformatics* support citation typing ontology annotations
-using the CiTO @uses_method_in:Willighagen_2020. Adding an annoted citation
-is done by prepending the BibTeX key with the intention, e.g.
-*[\@agrees_with:Guha_Willighagen_2017]* or *[\@uses_method_in:Willighagen_2020]*.
-
-If you have more than one reference to cite, separate them with a semicolon,
-for example: *[\@Willighagen_2020; \@Guha_Willighagen_2017]*
-[@Willighagen_2020; @Guha_Willighagen_2017].
-If you have more than one intention to cite, separate them with a colon,
-for example: *[\@uses_method_in:extends:Willighagen_2020]*
-[@uses_method_in:extends:Willighagen_2020].
 
 ![](images/cito_in_Word.png)
 **Figure 1**: Reference list as converted into Word, including CiTO annotation.

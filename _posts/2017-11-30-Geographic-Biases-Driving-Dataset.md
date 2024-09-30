@@ -6,18 +6,11 @@ summary: Why do models trained on Europe perform poorly outside non-European con
 mathjax: true
 ---
 
-
-* Members:
-Rahul Nair, Gabriel Tseng, Esther Rolf, Hannah Kerner
-
-
 ![Geographic Biases in Driving Datasets](../assets/img/posts/geographic-biases.png?raw=true "Title")
-
 
 # Abstract
 
-**Background:** Text for this section. Research articles should include an abstract
-that does not exceed 350 words.
+**Background:** Why do models trained on Europe perform poorly outside non-European continents?
 
 **Methods:** 
 
@@ -30,6 +23,10 @@ that does not exceed 350 words.
 
 **Results:** Text for this section.
 
+
+
+* Members:
+Rahul Nair, Gabriel Tseng, Esther Rolf, Hannah Kerner
 <!-- **Keywords:** sample; article; author -->
 
 <!-- A graphical abstract can be supplied which, together with the article title,
