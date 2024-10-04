@@ -1,10 +1,10 @@
 ---
 layout: person
-name: "Gabriel Tseng"
+name: "Amna El-Mustafa"
 role: "Student"
 level: "PhD"
 affiliation: "School of Computing and Augmented Intelligence"
 program: "PhD Computer Science"
-completion_date: "2025"
-photo: "posts/gabriel.png"
+completion_date: "2029"
+photo: "posts/amna.jpg"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: person
 name: "Hannah Kerner"
-role: "Professor"
+role: "Assistant Professor"
 title: "Assistant Professor"
 affiliation: "School of Computing and Augmented Intelligence"
 photo: "posts/user-sample.png"
