@@ -4,7 +4,5 @@ title: About
 permalink: /about/
 ---
 
-## Values
-
-## Focus
+The Kerner Lab focuses on advancing the foundations and applications of machine learning to foster a more sustainable, responsible, and fair future for all.
 

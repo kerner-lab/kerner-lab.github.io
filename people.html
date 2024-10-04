@@ -137,17 +137,18 @@ ion-icon:hover {
 }
 
 button {
-  width: 80px;
-  height: 20px;
-  border-radius: 10px;
+  width: 70px;
+  height: 25px;
+  border-radius: 8px;
   font-weight: bolder;
+  font-size: 10px;
 }
 
 .button {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  margin: 20px 30px 0px;
+  margin: 15px 21px 0px;
 }
 
 .button .message {
@@ -258,11 +259,7 @@ h5 {
                     <img src="{{ '/assets/img/' | append: person.photo }}" alt="{{ person.name }}">
                 </div>
                 <div class="level">
-                    {% if person.role == 'Professor' %}
-                    <p>PRO</p>
-                    {% else %}
                     <p>{{ person.role | upcase }}</p>
-                    {% endif %}
                 </div>
                 <div class="text">
                     <p class="name">{{ person.name }}</p>
@@ -276,9 +273,9 @@ h5 {
                     {% endif %}
                 </div>
                 <div class="button">
-                    <div>
+                    <!-- <div>
                         <button class="message" type="button">Project</button>
-                    </div>
+                    </div> -->
                     {% if person.link %}
                     <div>
                         <a href="{{ person.link }}">
