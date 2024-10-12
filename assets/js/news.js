@@ -1,7 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Toggle news content visibility
-    console.log("in newscript");
+    // console.log("in newscript");
     window.toggleNewsContent = function(element) {
+    document.querySelectorAll('.news-content').forEach(content => {
+        content.style.display = "none"; // Initially hide all content
+        });
+
       const content = element.querySelector('.news-content');
       console.log(content);
       if (content.style.display === "none" || content.style.display === "") {
@@ -9,6 +13,8 @@ document.addEventListener("DOMContentLoaded", function() {
       } else {
         content.style.display = "none"; // Hide content
       }
+
+
     };
 
     // Initialize all news content to be hidden on page load
