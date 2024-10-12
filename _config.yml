@@ -63,7 +63,7 @@ exclude:
   - gulpfile.js
   - sleek.jpg
 
-include: ["_pages"]
+include: ["_pages", "_news"]
 permalink: /:title/
 
 compress_html:

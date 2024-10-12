@@ -59,18 +59,23 @@ layout: compress
 
             <!-- {% include landing_page.md %} -->
               <!-- Recent News -->
-              {% assign sorted_news = site.news | sort: "date" | reverse %}
-              {% assign recent_news = sorted_news | slice: 0, 3 %}
-              {% assign older_news = sorted_news | slice: 3, sorted_news.size %}
+              {% if site.news %}
+                  {% assign sorted_news = site.news |  default: [] | sort: "date" | reverse %}
+                  {% assign recent_news = sorted_news | slice: 0, 3 %}
+                  {% assign older_news = sorted_news | slice: 3, sorted_news.size %}
 
-              <h2>Recent News</h2>
-              <ul>
-                {% for news in recent_news %}
-                  <li>
-                    <a href="{{ news.url }}">{{ news.title }}</a> - {{ news.date | date: "%B %Y" }}
-                  </li>
-                {% endfor %}
-              </ul>
+                  <h2>Recent News</h2>
+                  <ul>
+                    {% for news in recent_news %}
+                      <li>
+                        <a href="{{ news.url }}">{{ news.title }}</a> - {{ news.date | date: "%B %Y" }}
+                      </li>
+                    {% endfor %}
+                  </ul>
+              {% else %}
+                  <p>No news available.</p>
+              {% endif %}
+             
               
             <!-- {% include pagination.html %} -->
           </div>
