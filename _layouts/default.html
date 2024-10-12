@@ -57,8 +57,6 @@ layout: compress
             <h2>About</h2>
             <p>The Kerner Lab focuses on advancing the foundations and applications of machine learning to foster a more sustainable, responsible, and fair future for all.</p>
 
-
-
             <!-- {% for post in site.posts %}
               {% include card.html %}
             {% endfor %} -->
@@ -73,12 +71,11 @@ layout: compress
                   <hr>
                   <ul>
                     {% for news in recent_news %}
-                      <li>
+                      <li class="news-month" onclick="toggleNewsContent(this)">
                         {{ news.date | date: "%B %Y" }}
-                        <!-- {{ news.content}}  -->
-                        <div>
+                        <div class="news-content">
                           {{ news.content | markdownify }}
-                      </div>
+                        </div>
                       </li>
                     {% endfor %}
                   </ul>
@@ -92,7 +89,22 @@ layout: compress
     </main>
 
     {% include footer.html %}
+    <script>
+      function toggleNewsContent(element) {
+        const content = element.querySelector('.news-content');
+        if (content.style.display === "none" || content.style.display === "") {
+          content.style.display = "block"; // Show content
+        } else {
+          content.style.display = "none"; // Hide content
+        }
+      }
 
+      // Optional: Initialize all news content to be hidden on page load
+      document.querySelectorAll('.news-content').forEach(content => {
+        content.style.display = "none"; // Initially hide all content
+      });
+    </script>
+    
   </body>
   
 
