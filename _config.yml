@@ -63,7 +63,7 @@ exclude:
   - gulpfile.js
   - sleek.jpg
 
-include: ["_pages", "_news"]
+include: ["_pages"]
 permalink: /:title/
 
 compress_html:
@@ -75,6 +75,8 @@ plugins:
 
 collections:
   posts:
+    output: true
+  news:
     output: true
   people:
     output: true

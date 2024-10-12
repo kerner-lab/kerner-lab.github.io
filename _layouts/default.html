@@ -47,14 +47,18 @@ layout: compress
         <p class="hero__meta">{{ site.tagline }}</p>
       </div>
     </div>
+    <pre>{{ site | inspect }}</pre>
 
     <main class="site__content">
       <section class="blog">
         <div class="container">
-          <h2> About</h2>
-          <p>The Kerner Lab focuses on advancing the foundations and applications of machine learning to foster a more sustainable, responsible, and fair future for all.</p>
-          
+                    
           <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+
+            <h2>About</h2>
+            <p>The Kerner Lab focuses on advancing the foundations and applications of machine learning to foster a more sustainable, responsible, and fair future for all.</p>
+
+
 
             <!-- {% for post in site.posts %}
               {% include card.html %}
@@ -74,8 +78,6 @@ layout: compress
                       </li>
                     {% endfor %}
                   </ul>
-              {% else %}
-                  <p>No news available.</p>
               {% endif %}
              
               
