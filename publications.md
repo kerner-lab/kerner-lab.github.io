@@ -4,6 +4,7 @@ permalink: /publications/
 title: "Publications"
 ---
 
+## Publications
 
 1. Kerner, H., Chaudhari, S., Ghosh, A., Robinson, C., Ahmad, A., Choi, E., Jacobs, N., Holmes, C., Mohr, M., Dodhia, R., Lavista Ferres, J. M., Marcus, J. (2024). Fields of The World: A Machine Learning Benchmark Dataset For Global Agricultural Field Boundary Segmentation, arXiv preprint, [link](https://fieldsofthe.world/paper.html).
 
@@ -47,13 +48,13 @@ title: "Publications"
 
 1. Rice, M.S., Seeger, C., Bell, J., Calef, F., St Clair, M., Eng, A., Fraeman, A.A., Hughes, C., Horgan, B., Jacob, S., Johnson, J., Kerner, H., Kinch, K., Lemmon, M., Million, C., Starr, M., and Wellington, D. (2022). Spectral diversity of rocks and soils in Mastcam observations along the Curiosity rover’s traverse in Gale crater, Mars. *Journal of Geophysical Research: Planets*, e2021JE007134, [link](https://doi.org/10.1029/2021JE007134).
 
-1.Kerner, H. and Adler, J. B. (2022). Guiding Field Exploration on Earth and Mars with Outlier Detection. *Proceedings of the International Geoscience and Remote Sensing Symposium (IGARSS 2022)*, pp. 5333-5336, [link](https://ieeexplore.ieee.org/document/9884366).
+1. Kerner, H. and Adler, J. B. (2022). Guiding Field Exploration on Earth and Mars with Outlier Detection. *Proceedings of the International Geoscience and Remote Sensing Symposium (IGARSS 2022)*, pp. 5333-5336, [link](https://ieeexplore.ieee.org/document/9884366).
 
 1. Manheim, M. R., Henriksen, M. R., Robinson, M. S.,Kerner, H., Karas, B. A., Becker, K. J., Chojnacki, M., Sutton, S. S., Blewett, D. T. (2022). High-Resolution Regional Digital Elevation Models and Derived Products from MESSENGER MDIS Images. *Remote Sensing, 14*, 3564, [link](https://doi.org/10.3390/rs14153564).
 
-1.Kerner, H., Sahajpal, R., Pai, D. B., Skakun, S., Puricelli, E., Hosseini, M., Meyer, S., and Becker-Reshef, I. (2022). Phenological normalization can improve in-season classification of maize and soybean: A case study in the central US Corn Belt. *Science of Remote Sensing, 6*, 100059, [link](https://doi.org/10.1016/j.srs.2022.100059).
+1. Kerner, H., Sahajpal, R., Pai, D. B., Skakun, S., Puricelli, E., Hosseini, M., Meyer, S., and Becker-Reshef, I. (2022). Phenological normalization can improve in-season classification of maize and soybean: A case study in the central US Corn Belt. *Science of Remote Sensing, 6*, 100059, [link](https://doi.org/10.1016/j.srs.2022.100059).
 
-1.Kerner, H., Rebbapragada, U., Wagstaff, K. L., Lu, S., Dubayah, B., Huff, E., Raman, V., and Kulshrestha, S. (2022). Domain-Agnostic Outlier Ranking Algorithms---A Configurable Pipeline for Facilitating Outlier Detection in Scientific Datasets. *Frontiers in Astronomy and Space Sciences, 9*, 867947, [link](https://doi.org/10.3389/fspas.2022.867947).
+1. Kerner, H., Rebbapragada, U., Wagstaff, K. L., Lu, S., Dubayah, B., Huff, E., Raman, V., and Kulshrestha, S. (2022). Domain-Agnostic Outlier Ranking Algorithms---A Configurable Pipeline for Facilitating Outlier Detection in Scientific Datasets. *Frontiers in Astronomy and Space Sciences, 9*, 867947, [link](https://doi.org/10.3389/fspas.2022.867947).
 
 1. Nakalembe, C. L. andKerner, H. (2022). Applications and Considerations for AI-EO for Agriculture in Sub-Saharan Africa. *Association for the Advancement of Artificial Intelligence (AAAI) Workshops*, International Workshop on Social Impact of AI for Africa.
 
@@ -63,46 +64,44 @@ title: "Publications"
 
 1. Tseng, G., Zvonkov, I., Nakalembe, C., Kerner, H. (2021). CropHarvest: a global satellite dataset for crop type classification. *Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks*, [link](https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/file/54229abfcfa5649e7003b83dd4755294-Paper-round2.pdf).
 
-2. Lacoste, A., Sherwin, E., Kerner, H., Alemohammad, H., Lutjens, B., Irvin, J., Dao, D., Chang, A., Gunturkun, M., Drouin, A., Rodriguez, P., Vazquez, D. (2021). Toward Foundation Models for Earth Monitoring: Proposal for a Climate Change Benchmark. *Proceedings of the Neural Information Processing Systems (NeurIPS) Workshops*, Tackling Climate Change with AI, [link](https://www.climatechange.ai/papers/neurips2021/73/paper.pdf).
+1. Lacoste, A., Sherwin, E., Kerner, H., Alemohammad, H., Lutjens, B., Irvin, J., Dao, D., Chang, A., Gunturkun, M., Drouin, A., Rodriguez, P., Vazquez, D. (2021). Toward Foundation Models for Earth Monitoring: Proposal for a Climate Change Benchmark. *Proceedings of the Neural Information Processing Systems (NeurIPS) Workshops*, Tackling Climate Change with AI, [link](https://www.climatechange.ai/papers/neurips2021/73/paper.pdf).
 
-3. Shirzaei, M., Khoshmanesh, M., Ojha, C., Werth, S., Kerner, H., Carlson, G., Sherpa, S. F., Zhai, G., and Lee, J. Persistent impact of spring floods on crop loss in U.S. Midwest. *Weather and Climate Extremes, 34*, 100392, [link](https://doi.org/10.1016/j.wace.2021.100392).
+1. Shirzaei, M., Khoshmanesh, M., Ojha, C., Werth, S., Kerner, H., Carlson, G., Sherpa, S. F., Zhai, G., and Lee, J. Persistent impact of spring floods on crop loss in U.S. Midwest. *Weather and Climate Extremes, 34*, 100392, [link](https://doi.org/10.1016/j.wace.2021.100392).
 
-4. Huppertz, R., Nakalembe, C., Kerner, H. (2021). Using transfer learning to study burned area dynamics: A case study of Refugee settlements in West Nile, Northern Uganda. *Proceedings of the ACM/SIGKIDD Conference on Knowledge Discover and Data Mining (KDD) Workshops*, Humanitarian Mapping, [link](https://arxiv.org/abs/2107.14372). 🎤 Oral Presentation
+1. Huppertz, R., Nakalembe, C., Kerner, H. (2021). Using transfer learning to study burned area dynamics: A case study of Refugee settlements in West Nile, Northern Uganda. *Proceedings of the ACM/SIGKIDD Conference on Knowledge Discover and Data Mining (KDD) Workshops*, Humanitarian Mapping, [link](https://arxiv.org/abs/2107.14372). 🎤 Oral Presentation
 
-5. Paliyam, M., Nakalembe, C., Kerner, H. (2021). Street2Sat: A Machine Learning Pipeline for Generating Ground-truth Geo-referenced Labeled Datasets from Street-Level Images. *Proceedings of the International Conference on Machine Learning (ICML) Workshops*, Tackling Climate Change with AI, [link](https://www.climatechange.ai/papers/icml2021/74.html).
+1. Paliyam, M., Nakalembe, C., Kerner, H. (2021). Street2Sat: A Machine Learning Pipeline for Generating Ground-truth Geo-referenced Labeled Datasets from Street-Level Images. *Proceedings of the International Conference on Machine Learning (ICML) Workshops*, Tackling Climate Change with AI, [link](https://www.climatechange.ai/papers/icml2021/74.html).
 
-6. Gray, P. C., Chamorro, D. F., Ridge, J. T.,Kerner, H., Ury, E. A., and Johnston, D. W. Temporally Generalizable Land Cover Classification: A Recurrent Convolutional Neural Network Unveils Major Coastal Change through Time. *Remote Sensing, 13(19)*, 3953, [link](https://doi.org/10.3390/rs13193953).
+1. Gray, P. C., Chamorro, D. F., Ridge, J. T.,Kerner, H., Ury, E. A., and Johnston, D. W. Temporally Generalizable Land Cover Classification: A Recurrent Convolutional Neural Network Unveils Major Coastal Change through Time. *Remote Sensing, 13(19)*, 3953, [link](https://doi.org/10.3390/rs13193953).
 
-7. Tseng, G., Kerner, H., Nakalembe, C., and Becker-Reshef, I. (2021). Learning to predict crop type from heterogeneous sparse labels using meta-learning. P*roceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops*, EarthVision 2021, [link](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/papers/Tseng_Learning_To_Predict_Crop_Type_From_Heterogeneous_Sparse_Labels_Using_CVPRW_2021_paper.pdf).
+1. Tseng, G., Kerner, H., Nakalembe, C., and Becker-Reshef, I. (2021). Learning to predict crop type from heterogeneous sparse labels using meta-learning. P*roceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops*, EarthVision 2021, [link](https://openaccess.thecvf.com/content/CVPR2021W/EarthVision/papers/Tseng_Learning_To_Predict_Crop_Type_From_Heterogeneous_Sparse_Labels_Using_CVPRW_2021_paper.pdf).
 
-8. Horton, P., Kerner, H., Jacobs, S., Cisneros, E., Wagstaff, K. L., and Bell III, J. F. (2021). Integrating Novelty Detection Capabilities with MSL Mastcam Operations to Enhance Data Analysis. IEEE Aerospace Conference, Big Sky, Montana, March 6-13, [link](https://arxiv.org/abs/2103.12815).
+1. Horton, P., Kerner, H., Jacobs, S., Cisneros, E., Wagstaff, K. L., and Bell III, J. F. (2021). Integrating Novelty Detection Capabilities with MSL Mastcam Operations to Enhance Data Analysis. IEEE Aerospace Conference, Big Sky, Montana, March 6-13, [link](https://arxiv.org/abs/2103.12815).
 
-9. Lawal, A., Kerner, H., Becker-Reshef, I., Meyer, S. (2021). Mapping the Location and Extent of 2019 Prevent Planting Acres in South Dakota Using Remote Sensing Techniques. *Remote Sensing, 13(13)*, 2430, [link](https://www.mdpi.com/2072-4292/13/13/2430).
+1. Lawal, A., Kerner, H., Becker-Reshef, I., Meyer, S. (2021). Mapping the Location and Extent of 2019 Prevent Planting Acres in South Dakota Using Remote Sensing Techniques. *Remote Sensing, 13(13)*, 2430, [link](https://www.mdpi.com/2072-4292/13/13/2430).
 
-10. Tseng, G., Kerner, H., Nakalembe, C., and Becker-Reshef, I. (2020). Annual and in-season mapping of cropland at field scale with sparse labels. *Proceedings of the Neural Information Processing Systems (NeurIPS) Workshops*, Tackling Climate Change with AI, [link](https://www.climatechange.ai/papers/neurips2020/29/paper.pdf).
+1. Tseng, G., Kerner, H., Nakalembe, C., and Becker-Reshef, I. (2020). Annual and in-season mapping of cropland at field scale with sparse labels. *Proceedings of the Neural Information Processing Systems (NeurIPS) Workshops*, Tackling Climate Change with AI, [link](https://www.climatechange.ai/papers/neurips2020/29/paper.pdf).
 
-11. Azari, A. R., Biersteker, J. B., Dewey, R. M., Doran, G., Forsberg, E., Harris, C. D. K.,Kerner, H., Skinner, K. A., Smith, A. W. (2020). Integrating Machine Learning for Planetary Science: Perspectives for the Next Decade. *White Paper to the NRC Planetary Science and Astrobiology Decadal Survey 2023-2032*, [link](https://arxiv.org/pdf/2007.15129.pdf).
+1. Azari, A. R., Biersteker, J. B., Dewey, R. M., Doran, G., Forsberg, E., Harris, C. D. K.,Kerner, H., Skinner, K. A., Smith, A. W. (2020). Integrating Machine Learning for Planetary Science: Perspectives for the Next Decade. *White Paper to the NRC Planetary Science and Astrobiology Decadal Survey 2023-2032*, [link](https://arxiv.org/pdf/2007.15129.pdf).
 
-12. Wagstaff, K. L., Francis, R., Kerner, H., Lu, S., Nerrise, F. (2020). Novelty-Driven Onboard Targeting for Mars Rovers. *International Symposium on Artificial Intelligence, Robotics and Automation in Space (i-SAIRAS)*, [link](https://www.hou.usra.edu/meetings/isairas2020fullpapers/pdf/5056.pdf).
+1. Wagstaff, K. L., Francis, R., Kerner, H., Lu, S., Nerrise, F. (2020). Novelty-Driven Onboard Targeting for Mars Rovers. *International Symposium on Artificial Intelligence, Robotics and Automation in Space (i-SAIRAS)*, [link](https://www.hou.usra.edu/meetings/isairas2020fullpapers/pdf/5056.pdf).
 
-13. Hosseini, M., Kerner, H., Sahajpal, R., Puricelli, E., Lu, Y-H., Lawal, A., Humber, M. L., Mitkish, M., Meyer, S., Becker-Reshef, I. Evaluating the Impact of the 2020 Iowa Derecho on Corn and Soybean Fields Using Synthetic Aperture Radar. *Remote Sensing, 12(23)*, 3878, [link](https://www.mdpi.com/2072-4292/12/23/3878).
+1. Hosseini, M., Kerner, H., Sahajpal, R., Puricelli, E., Lu, Y-H., Lawal, A., Humber, M. L., Mitkish, M., Meyer, S., Becker-Reshef, I. Evaluating the Impact of the 2020 Iowa Derecho on Corn and Soybean Fields Using Synthetic Aperture Radar. *Remote Sensing, 12(23)*, 3878, [link](https://www.mdpi.com/2072-4292/12/23/3878).
 
-14.Kerner, H., Sahajpal, R., Skakun, S., Becker-Reshef, I., Barker, B., Hosseini, M. (2020). Resilient In-Season Crop Type Classification in Multispectral Satellite Observations using Growth Stage Normalization. *Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining Workshops*, [link](https://arxiv.org/abs/2009.10189).
+1. Kerner, H., Sahajpal, R., Skakun, S., Becker-Reshef, I., Barker, B., Hosseini, M. (2020). Resilient In-Season Crop Type Classification in Multispectral Satellite Observations using Growth Stage Normalization. *Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining Workshops*, [link](https://arxiv.org/abs/2009.10189).
 
-15.Kerner, H., Tseng, G., Becker-Reshef, I., Barker, B., Munshell, B., Paliyam, M., Hosseini, M. (2020). Rapid Response Crop Maps in Data Sparse Regions. *Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining Workshops*, [link](https://arxiv.org/abs/2006.16866).
+1. Kerner, H., Tseng, G., Becker-Reshef, I., Barker, B., Munshell, B., Paliyam, M., Hosseini, M. (2020). Rapid Response Crop Maps in Data Sparse Regions. *Proceedings of the ACM SIGKDD Conference on Knowledge Discovery and Data Mining Workshops*, [link](https://arxiv.org/abs/2006.16866).
 
-16.Kerner, H., Wagstaff, K. L., Bue, B. D., Wellington, D. F., Jacob, S., Horton, P., Bell, J. F., Kwan, C. Ben Amor, H. (2020). Comparison of Novelty Detection Methods for Multispectral Images in Rover-Based Planetary Exploration Missions. *Data Mining and Knowledge Discovery, 34,* pp. 1642–1675, [link](https://doi.org/10.1007/s10618-020-00697-6).
+1. Kerner, H., Wagstaff, K. L., Bue, B. D., Wellington, D. F., Jacob, S., Horton, P., Bell, J. F., Kwan, C. Ben Amor, H. (2020). Comparison of Novelty Detection Methods for Multispectral Images in Rover-Based Planetary Exploration Missions. *Data Mining and Knowledge Discovery, 34,* pp. 1642–1675, [link](https://doi.org/10.1007/s10618-020-00697-6).
 
-17.Kerner, H., Nakalembe, C., Becker-Reshef, I. (2020). Field-Level Crop Type Classification with k-Nearest Neighbors: A Baseline for a New Kenya Smallholder Dataset. *Proceedings of the International Conference on Learning Representations (ICLR) Workshops*, [link](https://arxiv.org/abs/2004.03023).
+1. Kerner, H., Nakalembe, C., Becker-Reshef, I. (2020). Field-Level Crop Type Classification with k-Nearest Neighbors: A Baseline for a New Kenya Smallholder Dataset. *Proceedings of the International Conference on Learning Representations (ICLR) Workshops*, [link](https://arxiv.org/abs/2004.03023).
 
-18.Kerner, H., Hardgrove, C., Czarnecki, S., Gabriel, T. S. J., Mitrofanov, I., Litvak, M., Sanin, A., Lisov, D. (2020). Analysis of Active Neutron Measurements from the Mars Science Laboratory Dynamic Albedo of Neutrons Instrument: Intrinsic Variability, Outliers, and Implications for Future Investigations. *Journal of Geophysical Research: Planets, 125(5)*, e2019JE006264, [link](https://doi.org/10.1029/2019JE006264).
+1. Kerner, H., Hardgrove, C., Czarnecki, S., Gabriel, T. S. J., Mitrofanov, I., Litvak, M., Sanin, A., Lisov, D. (2020). Analysis of Active Neutron Measurements from the Mars Science Laboratory Dynamic Albedo of Neutrons Instrument: Intrinsic Variability, Outliers, and Implications for Future Investigations. *Journal of Geophysical Research: Planets, 125(5)*, e2019JE006264, [link](https://doi.org/10.1029/2019JE006264).
 
-19.Kerner, H., Wagstaff, K. L., Bue, B. D., Gray, P., Bell III, J. F., Ben Amor, H (2019). Deep Learning Methods Toward Generalized Change Detection on Planetary Surfaces. *Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 12(10)*, pp. 3900-3918, [link](https://doi.org/10.1109/JSTARS.2019.2936771).
+1. Kerner, H., Wagstaff, K. L., Bue, B. D., Gray, P., Bell III, J. F., Ben Amor, H (2019). Deep Learning Methods Toward Generalized Change Detection on Planetary Surfaces. *Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 12(10)*, pp. 3900-3918, [link](https://doi.org/10.1109/JSTARS.2019.2936771).
 
-20.Kerner, H., Wellington, D. F., Wagstaff, K. L., Bell III, J. F., Kwan, C., Ben Amor, H. (2019). Novelty Detection for Multispectral Images with Application to Planetary Exploration. *Proceedings of the AAAI Conference on Artificial Intelligence*, pp. 9484-9491, [link](https://doi.org/10.1609/aaai.v33i01.33019484). 🎤 Oral Presentation
+1. Kerner, H., Wellington, D. F., Wagstaff, K. L., Bell III, J. F., Kwan, C., Ben Amor, H. (2019). Novelty Detection for Multispectral Images with Application to Planetary Exploration. *Proceedings of the AAAI Conference on Artificial Intelligence*, pp. 9484-9491, [link](https://doi.org/10.1609/aaai.v33i01.33019484). 🎤 Oral Presentation
 
-21.Kerner, H., Ben Amor, H., Bell III, J. F. (2018). Context-Dependent Image Quality Assessment of JPEG-Compressed Mars Science Laboratory Mastcam Images using Convolutional Neural Networks. *Computers and Geosciences, 118*, pp. 109-121, [link](https://doi.org/10.1016/j.cageo.2018.06.001).
+1. Kerner, H., Ben Amor, H., Bell III, J. F. (2018). Context-Dependent Image Quality Assessment of JPEG-Compressed Mars Science Laboratory Mastcam Images using Convolutional Neural Networks. *Computers and Geosciences, 118*, pp. 109-121, [link](https://doi.org/10.1016/j.cageo.2018.06.001).
 
-22. Kwan, C., Chou, B., Kwan, L., Larkin, J., Ayhan, B., Bell III, J. F.,Kerner, H. (2017). Demosaicing Enhancement using Pixel-Level Fusion. *Signal, Image and Video Processing, 12(4)*, pp. 749-756, [link](https://doi.org/10.1007/s11760-017-1216-2).
-
-
+1. Kwan, C., Chou, B., Kwan, L., Larkin, J., Ayhan, B., Bell III, J. F.,Kerner, H. (2017). Demosaicing Enhancement using Pixel-Level Fusion. *Signal, Image and Video Processing, 12(4)*, pp. 749-756, [link](https://doi.org/10.1007/s11760-017-1216-2).
