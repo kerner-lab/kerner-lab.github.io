@@ -76,8 +76,8 @@ plugins:
 collections:
   news:
     output: true
-  # posts:
-  #   output: true
+  posts:
+    output: true
   people:
     output: true
     permalink: /people/:path/

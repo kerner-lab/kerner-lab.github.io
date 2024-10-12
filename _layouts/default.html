@@ -47,7 +47,6 @@ layout: compress
         <p class="hero__meta">{{ site.tagline }}</p>
       </div>
     </div>
-    <pre>{{ site | inspect }}</pre>
 
     <main class="site__content">
       <section class="blog">
@@ -71,10 +70,15 @@ layout: compress
                   {% assign older_news = sorted_news | slice: 3, sorted_news.size %}
 
                   <h2>Recent News</h2>
+                  <hr>
                   <ul>
                     {% for news in recent_news %}
                       <li>
-                        <a href="{{ news.url }}">{{ news.title }}</a> - {{ news.date | date: "%B %Y" }}
+                        {{ news.date | date: "%B %Y" }}
+                        <!-- {{ news.content}}  -->
+                        <div>
+                          {{ news.content | markdownify }}
+                      </div>
                       </li>
                     {% endfor %}
                   </ul>
