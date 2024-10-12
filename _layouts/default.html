@@ -51,13 +51,15 @@ layout: compress
     <main class="site__content">
       <section class="blog">
         <div class="container">
+          <h2> About</h2>
+          <p>The Kerner Lab focuses on advancing the foundations and applications of machine learning to foster a more sustainable, responsible, and fair future for all.</p>
+          
           <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
 
             <!-- {% for post in site.posts %}
               {% include card.html %}
             {% endfor %} -->
 
-            <!-- {% include landing_page.md %} -->
               <!-- Recent News -->
               {% if site.news %}
                   {% assign sorted_news = site.news |  default: [] | sort: "date" | reverse %}
