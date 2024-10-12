@@ -5,9 +5,10 @@ layout: compress
 <html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
 
   {% include head.html %}
+  <script src="{{ '/assets/js/news.js' | relative_url }}"></script>
 
   <style>
-     .news-month {
+  .news-item {
       cursor: pointer;
       display: flex; /* Use flexbox for horizontal layout */
       justify-content: space-between; /* Space between title and date */
@@ -20,7 +21,7 @@ layout: compress
       transition: background 0.3s ease; /* Smooth transition */
     }
 
-    .news-month:hover {
+    .news-item:hover {
       background: #e9e9e9; /* Change background on hover */
     }
 
@@ -34,22 +35,11 @@ layout: compress
     .news-date {
       color: #888; /* Style for the date text */
     }
-  </style>
-  <script>
-    function toggleNewsContent(element) {
-      const content = element.querySelector('.news-content');
-      if (content.style.display === "none" || content.style.display === "") {
-        content.style.display = "block"; // Show content
-      } else {
-        content.style.display = "none"; // Hide content
-      }
-    }
 
-    // Optional: Initialize all news content to be hidden on page load
-    document.querySelectorAll('.news-content').forEach(content => {
-      content.style.display = "none"; // Initially hide all content
-    });
-  </script>
+    .news-title {
+      flex-grow: 1; /* Allow the title to take available space */
+    }
+  </style>
 
   <body class="site">
 
@@ -92,17 +82,17 @@ layout: compress
 
                   <h2>Recent News</h2>
                   <hr>
-                  <ul>
+                  <div>
                     {% for news in recent_news %}
-                      <li class="news-month" onclick="toggleNewsContent(this)">
-                        <span>{{ news.title }}</span>
+                      <div class="news-item" onclick="toggleNewsContent(this)">
+                        <span class="news-title">{{ news.title }}</span>
                         <span class="news-date">{{ news.date | date: "%B %d, %Y" }}</span>
                         <div class="news-content">
                           {{ news.content | markdownify }}
                         </div>
-                      </li>
+                      </div>
                     {% endfor %}
-                  </ul>
+                  </div>
               {% endif %}
              
               
