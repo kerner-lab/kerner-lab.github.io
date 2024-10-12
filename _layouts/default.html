@@ -8,6 +8,9 @@ layout: compress
   <script src="{{ '/assets/js/news.js' | relative_url }}"></script>
 
   <style>
+    .news-section{
+      width: 100%;
+    }
   .news-item {
       cursor: pointer;
       display: flex; /* Use flexbox for horizontal layout */
@@ -15,7 +18,7 @@ layout: compress
       padding: 15px;
       border: 1px solid #ccc;
       margin: 5px 0;
-      background: #fff;
+      /* background: #f7f2f2; */
       border-radius: 5px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       transition: background 0.3s ease; /* Smooth transition */
@@ -29,7 +32,7 @@ layout: compress
       display: none; /* Initially hidden */
       padding-left: 20px;
       margin-top: 5px;
-      border-left: 2px solid #007bff;
+      border-left: 2px solid #aac8e8;
     }
 
     .news-date {
@@ -82,11 +85,11 @@ layout: compress
 
                   <h2>Recent News</h2>
                   <hr>
-                  <div>
+                  <div class="news-section">
                     {% for news in recent_news %}
                       <div class="news-item" onclick="toggleNewsContent(this)">
                         <span class="news-title">{{ news.title }}</span>
-                        <span class="news-date">{{ news.date | date: "%B %d, %Y" }}</span>
+                        <!-- <span class="news-date">{{ news.date | date: "%B %d, %Y" }}</span> -->
                         <div class="news-content">
                           {{ news.content | markdownify }}
                         </div>
