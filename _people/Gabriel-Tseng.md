@@ -1,5 +1,6 @@
 ---
 layout: person
+association: "current"
 name: "Gabriel Tseng"
 role: "Student"
 level: "PhD Student"

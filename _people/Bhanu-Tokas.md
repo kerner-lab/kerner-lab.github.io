@@ -1,5 +1,6 @@
 ---
 layout: person
+association: "current"
 name: "Bhanu Tokas"
 role: "Student"
 level: "PhD Student"

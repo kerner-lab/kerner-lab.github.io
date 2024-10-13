@@ -2,7 +2,7 @@
 layout: base
 title: People
 ---
-{% assign sorted_people_en = site.people | sort: 'role' %}
+{% assign sorted_people = site.people | sort: 'association' | sort: 'role' %}
 <style>
     .person-card-photo {
         width: 100px;
@@ -254,66 +254,77 @@ h5 {
 
     <div class="people-list">
         {% for person in sorted_people_en %}
-        <div class="box1 box">
-            <div class="content">
-                <div class="image">
-                    <img src="{{ '/assets/img/' | append: person.photo }}" alt="{{ person.name }}">
-                </div>
-                <div class="level">
-                    <p>{{ person.role | upcase }}</p>
-                </div>
-                <div class="text">
-                    <p class="name">{{ person.name }}</p>
-                    {% if person.role == 'Student' %}
-                    <p class="job_title">{{ person.program }} <i>( {{ person.completion_date }} )</i></p>
-                    <p class="job_discription">{{ person.affiliation }}</p>
-                    {% elsif person.role %}
-                    <p class="job_title">{{ person.title }}</p>
-                    <p class="job_discription">{{ person.affiliation }}</p>
-                    <!-- {% else %}
-                    <p class="job_title">{{ person.role }}</p> -->
-                    {% endif %}
-                </div>
-                <div class="button">
-                    <!-- <div>
-                        <button class="message" type="button">Project</button>
-                    </div> -->
-                    {% if person.link %}
-                    <div>
-                        <a href="{{ person.link }}">
-                            <button class="connect" type="button">Connect</button>
-                        </a>
-                    </div>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
+          {% if person.association == 'current' %}
+          <div class="box1 box">
+              <div class="content">
+                  <div class="image">
+                      <img src="{{ '/assets/img/' | append: person.photo }}" alt="{{ person.name }}">
+                  </div>
+                  <div class="level">                    
+                      {% if person.role == 'Student' %}
+                          <p>{{ person.level | upcase }}</p>
+                      {% else %}
+                          <p>{{ person.role | upcase }}</p>
+                      {% endif %}
+                  </div>
+                  <div class="text">
+                      <p class="name">{{ person.name }}</p>
+                      {% if person.role == 'Student' %}
+                      <p class="job_title">{{ person.program }} <i>[ {{ person.completion_date }} ]</i></p>
+                      <p class="job_discription">{{ person.affiliation }}</p>
+                      {% elsif person.role %}
+                      <p class="job_title">{{ person.title }}</p>
+                      <p class="job_discription">{{ person.affiliation }}</p>
+                      <!-- {% else %}
+                      <p class="job_title">{{ person.role }}</p> -->
+                      {% endif %}
+                  </div>
+                  <div class="button">
+                      {% if person.link %}
+                      <div>
+                          <a href="{{ person.link }}">
+                              <button class="connect" type="button">Connect</button>
+                          </a>
+                      </div>
+                      {% endif %}
+                  </div>
+              </div>
+          </div>
+          {% endif %}
         {% endfor %}
     </div>
 
+    <h2>Alumni</h2>
+    <div class="people-list">
+        {% for person in sorted_people %}
+            {% if person.association == 'alumni' %}
+                <div class="box1 box">
+                    <div class="content">
+                        <div class="image">
+                            <img src="{{ '/assets/img/' | append: person.photo }}" alt="{{ person.name }}">
+                        </div>
+                        <div class="level">                    
+                            <p>{{ person.current_role | upcase }}</p>
+                        </div>
+                        <div class="text">
+                            <p class="name">{{ person.name }}</p>
+                            <p class="job_discription">{{ person.affiliation }}</p>
+                            <p class="job_title">{{ person.program }} <i>[ {{ person.completion_date }} ]</i></p>                            
+                        </div>
+                        <div class="button">
+                            {% if person.link %}
+                                <div>
+                                    <a href="{{ person.link }}">
+                                        <button class="connect" type="button">Connect</button>
+                                    </a>
+                                </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+      </div>
 
-    <!-- <div class="box1 box">
-        <div class="content">
-          <div class="image">
-            <img src="https://i.postimg.cc/bryMmCQB/profile-image.jpg" alt="Profile Image">
-          </div>
-          <div class="level">
-            <p>PRO</p>
-          </div>
-          <div class="text">
-            <p class="name">Ethan Rivers</p>
-            <p class="job_title">UI / UX Designer</p>
-            <p class="job_discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam atque, ipsam a amet laboriosam eligendi.</p>
-          </div>
-          <div class="button">
-            <div>
-              <button class="message" type="button">Project</button>
-            </div>
-            <div>
-              <button class="connect" type="button">Connect</button>
-            </div>
-          </div>
-        </div>
-    </div> -->
 
 </section>

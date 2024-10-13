@@ -1,5 +1,6 @@
 ---
 layout: person
+association: "current"
 name: "Adam Hess-Dunlop"
 role: "Student"
 level: "PhD Student"

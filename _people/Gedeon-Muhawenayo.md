@@ -1,5 +1,6 @@
 ---
 layout: person
+association: "current"
 name: "Gedeon Muhawenayo"
 role: "Student"
 level: "PhD Student"

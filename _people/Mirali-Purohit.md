@@ -1,5 +1,6 @@
 ---
 layout: person
+association: "current"
 name: "Mirali Purohit"
 role: "Student"
 level: "PhD Student"

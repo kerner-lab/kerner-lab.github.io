@@ -1,5 +1,6 @@
 ---
 layout: person
+association: "current"
 name: "Amandeep Kaur"
 role: "Student"
 level: "PhD Student"

@@ -1,5 +1,6 @@
 ---
 layout: person
+association: "current"
 name: "Ana M. Tárano"
 role: "Staff"
 title: "Assistant Research Professor"

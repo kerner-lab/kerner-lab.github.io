@@ -1,5 +1,6 @@
 ---
 layout: person
+association: "current"
 name: "Benjamin Herrera"
 role: "Student"
 level: "UG student"

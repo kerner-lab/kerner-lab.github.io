@@ -1,5 +1,6 @@
 ---
 layout: person
+association: "current"
 name: "Amna El-Mustafa"
 role: "Student"
 level: "PhD Student"

@@ -1,5 +1,6 @@
 ---
 layout: person
+association: "current"
 name: "Chenwei Cui"
 role: "Student"
 level: "PhD Student"

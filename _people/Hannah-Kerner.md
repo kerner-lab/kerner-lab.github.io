@@ -1,5 +1,6 @@
 ---
 layout: person
+association: "current"
 name: "Hannah Kerner"
 role: "Assistant Professor"
 title: "Assistant Professor"

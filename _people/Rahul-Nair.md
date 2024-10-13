@@ -1,5 +1,6 @@
 ---
 layout: person
+association: "current"
 name: "Rahul Nair"
 role: "Student"
 level: "PhD Student"
