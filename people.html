@@ -268,7 +268,7 @@ h5 {
                   <div class="text">
                       <p class="name">{{ person.name }}</p>
                       {% if person.role == 'Student' %}
-                      <p class="job_title">{{ person.program }} <i>( {{ person.completion_date }} )</i></p>
+                      <p class="job_title">{{ person.program }} <i>[{{ person.completion_date }}]</i></p>
                       <p class="job_discription">{{ person.affiliation }}</p>
                       {% else %}
                       <p class="job_title">{{ person.title }}</p>
@@ -309,7 +309,7 @@ h5 {
                         <div class="text">
                             <p class="name">{{ person.name }}</p>
                             <p class="job_discription">{{ person.affiliation }}</p>
-                            <p class="job_title">{{ person.program }} <i>[ {{ person.completion_date }} ]</i></p>                            
+                            <p class="job_title">{{ person.program }} <i>[{{ person.completion_date }}]</i></p>                            
                         </div>
                         <div class="button">
                             {% if person.link %}

@@ -1,7 +1,7 @@
 ---
 layout: person
 association: "alumni"
-current_role: "University Staffr"
+current_role: "University Staff"
 name: "Snehal Chaudhari"
 role: "Student"
 level: "MS Student"
