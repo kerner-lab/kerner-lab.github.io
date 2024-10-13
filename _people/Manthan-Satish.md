@@ -8,4 +8,5 @@ level: "MS Student"
 program: "ASU, MS Robotics and Autonomous Systems"
 affiliation: "American Express"
 completion_date: "2023"
+photo: "posts/user-sample.png"
 ---

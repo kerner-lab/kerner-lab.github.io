@@ -2,7 +2,7 @@
 layout: base
 title: People
 ---
-{% assign sorted_people = site.people | sort: 'association' | sort: 'role' %}
+{% assign sorted_people = site.people | sort: 'role' %}
 <style>
     .person-card-photo {
         width: 100px;
@@ -224,7 +224,7 @@ h5 {
 
 </style>
 <section class="people">
-    <h1>{{ page.title }}</h1>
+    <!-- <h1>{{ page.title }}</h1> -->
 
     <!-- <div class="people-list">
         {% for person in sorted_people_en %}
@@ -253,7 +253,8 @@ h5 {
 
 
     <div class="people-list">
-        {% for person in sorted_people_en %}
+      <!-- sorted_people_en -->
+        {% for person in sorted_people %}
           {% if person.association == 'current' %}
           <div class="box1 box">
               <div class="content">
@@ -295,6 +296,7 @@ h5 {
     </div>
 
     <h2>Alumni</h2>
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
     <div class="people-list">
         {% for person in sorted_people %}
             {% if person.association == 'alumni' %}

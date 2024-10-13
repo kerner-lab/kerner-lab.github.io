@@ -9,4 +9,5 @@ affiliation: "ASU, School of Computing and Augmented Intelligence"
 program: "ASU, MS Robotics and Autonomous Systems"
 completion_date: "2024"
 link: "https://aninda-ghosh.github.io/"
+photo: "posts/user-sample.png"
 ---
