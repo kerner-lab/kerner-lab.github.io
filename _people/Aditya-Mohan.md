@@ -8,5 +8,5 @@ level: "MS Student"
 program: "ASU, MS Computer Science"
 affiliation: "Amazon"
 completion_date: "2024"
-photo: "posts/user-sample.png"
+photo: "posts/aditya.png"
 ---
