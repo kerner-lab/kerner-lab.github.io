@@ -263,7 +263,13 @@ h5 {
                       <img src="{{ '/assets/img/' | append: person.photo }}" alt="{{ person.name }}">
                   </div>
                   <div class="level">
-                      <p>{{ person.role | upcase }}</p>
+                      
+                      {% if person.role == 'Student' %}
+                          <p>{{ person.level | upcase }}</p>
+                      {% else %}
+                          <p>{{ person.role | upcase }}</p>
+                      {% endif %}
+
                   </div>
                   <div class="text">
                       <p class="name">{{ person.name }}</p>
@@ -294,7 +300,7 @@ h5 {
     </div>
 
     <h2>Alumni</h2>
-    <hr style="height:1px;border-width:0;color:rgb(250, 249, 249);background-color:rgb(251, 251, 251)">
+    <hr style="height:1px;border-width:0;color:rgb(216, 216, 220);background-color:rgb(251, 251, 251)">
     <div class="people-list">
         {% for person in sorted_people %}
             {% if person.association == 'alumni' %}
