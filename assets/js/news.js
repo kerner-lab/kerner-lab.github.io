@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
       const content = element.querySelector('.news-content');
-      console.log(content);
       if (content.style.display === "none" || content.style.display === "") {
         content.style.display = "block"; // Show content
       } else {
