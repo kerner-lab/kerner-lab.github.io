@@ -274,11 +274,9 @@ h5 {
                       {% if person.role == 'Student' %}
                       <p class="job_title">{{ person.program }} <i>[ {{ person.completion_date }} ]</i></p>
                       <p class="job_discription">{{ person.affiliation }}</p>
-                      {% elsif person.role %}
+                      {% else %}
                       <p class="job_title">{{ person.title }}</p>
                       <p class="job_discription">{{ person.affiliation }}</p>
-                      <!-- {% else %}
-                      <p class="job_title">{{ person.role }}</p> -->
                       {% endif %}
                   </div>
                   <div class="button">
