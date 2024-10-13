@@ -2,9 +2,9 @@
 layout: person
 name: "Gabriel Tseng"
 role: "Student"
-level: "PhD"
-affiliation: "School of Computing and Augmented Intelligence"
+level: "PhD Student"
+affiliation: "McGill/Mila"
 program: "PhD Computer Science"
 completion_date: "2025"
-# photo: "posts/gabriel.png"
+photo: "posts/user-sample.png"
 ---
